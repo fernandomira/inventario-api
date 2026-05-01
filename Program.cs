@@ -32,11 +32,9 @@ app.UseDefaultFiles();
 app.UseStaticFiles();
 
 // Swagger
-if (app.Environment.IsDevelopment())
-{
+
     app.UseSwagger();
     app.UseSwaggerUI();
-}
 
 app.UseHttpsRedirection();
 app.UseAuthorization();

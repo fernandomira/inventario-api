@@ -154,7 +154,7 @@
 //});
 document.addEventListener("DOMContentLoaded", () => {
 
-    const API_URL = "https://sports-useable-basics.ngrok-free.dev/api/Refacciones";
+    const API_URL = "https://inventario-api-1-g3xe.onrender.com/api/Refacciones";
 
     const recepcionForm = document.getElementById("recepcionForm");
     const tabla = document.querySelector("#tablaDatos tbody");

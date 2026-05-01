@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\herna\\source\\repos\\InventarioAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{77520C97-DC4D-42F9-B1FD-8668952B0F4F}|InventarioAPI.csproj|c:\\users\\herna\\source\\repos\\inventarioapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77520C97-DC4D-42F9-B1FD-8668952B0F4F}|InventarioAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77520C97-DC4D-42F9-B1FD-8668952B0F4F}|InventarioAPI.csproj|c:\\users\\herna\\source\\repos\\inventarioapi\\wwwroot\\js\\consumo.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{77520C97-DC4D-42F9-B1FD-8668952B0F4F}|InventarioAPI.csproj|solutionrelative:wwwroot\\js\\consumo.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77520C97-DC4D-42F9-B1FD-8668952B0F4F}|InventarioAPI.csproj|c:\\users\\herna\\source\\repos\\inventarioapi\\wwwroot\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{77520C97-DC4D-42F9-B1FD-8668952B0F4F}|InventarioAPI.csproj|solutionrelative:wwwroot\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{77520C97-DC4D-42F9-B1FD-8668952B0F4F}|InventarioAPI.csproj|c:\\users\\herna\\source\\repos\\inventarioapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{77520C97-DC4D-42F9-B1FD-8668952B0F4F}|InventarioAPI.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -27,6 +39,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\herna\\source\\repos\\InventarioAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\herna\\source\\repos\\InventarioAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T02:39:08.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "consumo.js",
+              "DocumentMoniker": "C:\\Users\\herna\\source\\repos\\InventarioAPI\\wwwroot\\js\\consumo.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\consumo.js",
+              "ToolTip": "C:\\Users\\herna\\source\\repos\\InventarioAPI\\wwwroot\\js\\consumo.js",
+              "RelativeToolTip": "wwwroot\\js\\consumo.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-05-01T02:33:25.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "app.js",
+              "DocumentMoniker": "C:\\Users\\herna\\source\\repos\\InventarioAPI\\wwwroot\\js\\app.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\app.js",
+              "ToolTip": "C:\\Users\\herna\\source\\repos\\InventarioAPI\\wwwroot\\js\\app.js",
+              "RelativeToolTip": "wwwroot\\js\\app.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJwAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-05-01T02:33:06.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\herna\\source\\repos\\InventarioAPI\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
@@ -39,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "InventarioAPI.csproj",
               "DocumentMoniker": "C:\\Users\\herna\\source\\repos\\InventarioAPI\\InventarioAPI.csproj",
               "RelativeDocumentMoniker": "InventarioAPI.csproj",
@@ -51,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\herna\\source\\repos\\InventarioAPI\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
