@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Recepcion de Componentes</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- HEADER CON LOGOS -->
+    <h1 style="display:flex; justify-content:space-between; align-items:center;">
+        <img src="img/logo_sampol_.png" alt="Logo Sampol" width="80">
+        Sistema de Inventario
+        <img src="img/Sigma_Alimentos_logotipo.png" alt="Logo Sigma" width="80">
+    </h1>
+
+    <form id="recepcionForm">
+        <table border="1" cellpadding="8">
+            <tr>
+                <td>Nombre del componente</td>
+                <td><input type="text" id="nombre" required></td>
+            </tr>
+            <tr>
+                <td>Ubicación</td>
+                <td><input type="text" id="ubicacion" required></td>
+            </tr>
+            <tr>
+                <td>Cantidad en stock</td>
+                <td><input type="number" id="cantidad" required></td>
+            </tr>
+            <tr>
+                <td>Fecha de recepción</td>
+                <td><input type="date" id="fechaRecepcion" required></td>
+            </tr>
+            <tr>
+                <td>Número de parte</td>
+                <td><input type="text" id="numeroParte" required></td>
+            </tr>
+            <tr>
+                <td>Imagen del componente</td>
+                <td>
+                    <input type="file" id="imagen" accept="image/*" multiple required>
+
+                    <!-- PREVIEWS -->
+                    <div id="previewContainer"></div>
+                </td>
+            </tr>
+        </table>
+
+        <br>
+        <button type="submit">Guardar</button>
+        <button type="button" onclick="location.href='consumo.html'">Consumo</button>
+    </form>
+
+    <hr>
+
+    <!-- TABLA -->
+    <h2>Componentes guardados</h2>
+
+    <table border="1" cellpadding="8" id="tablaDatos">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Ubicación</th>
+                <th>Stock</th>
+                <th>Fecha</th>
+                <th>No Parte</th>
+                <th>Imagenes</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

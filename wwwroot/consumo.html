@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Consumo de Componentes</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1 style="display:flex; justify-content:space-between; align-items:center;">
+        <img src="img/logo_sampol_.png" alt="Logo Sampol" width="80">
+        Sistema De Consumo De Componentes
+        <img src="img/Sigma_Alimentos_logotipo.png" alt="Logo Sigma" width="80">
+    </h1>
+
+    <form id="consumoForm">
+        <table border="1" cellpadding="8">
+            <tr>
+                <td>Buscar componente</td>
+                <td><input type="text" id="buscar" placeholder="Escribe nombre..."></td>
+            </tr>
+            <tr>
+                <td>Cantidad utilizada</td>
+                <td><input type="number" id="cantidadUsada" required></td>
+            </tr>
+            <tr>
+                <td>Fecha de utilización</td>
+                <td><input type="date" id="fechaUso" required></td>
+            </tr>
+        </table>
+        <br>
+        <button type="submit">Guardar Consumo</button>
+        <button type="button" onclick="location.href='index.html'">Regresar</button>
+    </form>
+
+    <h2>Resultados</h2>
+    <table border="1" cellpadding="8" id="resultados">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Ubicación</th>
+                <th>Cantidad disponible</th>
+                <th>Fecha recepción</th>
+                <th>Número de parte</th>
+                <th>Imágenes</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <h2>Historial de Consumos</h2>
+    <table border="1" cellpadding="8" id="historial">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Cantidad usada</th>
+                <th>Fecha de uso</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script src="js/consumo.js"></script>
+</body>
+</html>
